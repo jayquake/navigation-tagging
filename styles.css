@@ -1,0 +1,96 @@
+h1 {
+  text-decoration: underline;
+}
+.css-lzy2z8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: stretch;
+  -ms-flex-pack: stretch;
+  -webkit-justify-content: stretch;
+  justify-content: stretch;
+  -webkit-transition: margin-top 0.2s ease-out;
+  transition: margin-top 0.2s ease-out;
+  will-change: margin-top;
+}
+footer {
+  display: block;
+  unicode-bidi: isolate;
+}
+/* General styling for navigation menus */
+nav {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 10px; /* Add some space inside the nav */
+  border: 1px solid #ddd; /* Light border to define the area */
+  margin-bottom: 15px; /* Space between sections */
+}
+
+/* Style the unordered list to remove default bullets and padding */
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0;
+}
+
+/* Style the links inside the nav */
+nav ul li a {
+  display: block; /* Ensure links take up full width */
+  padding: 8px 12px; /* Add space inside the link */
+  color: #007bff; /* Default link color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Slight rounding of corners */
+}
+
+/* Add hover effect for better interactivity */
+nav ul li a:hover {
+  background-color: #007bff; /* Change background on hover */
+  color: white; /* White text on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Style the footer and sidebar navigation differently for contrast */
+footer nav,
+aside nav {
+  background-color: #343a40; /* Dark background for footer/sidebar */
+  color: #f8f9fa; /* Light text color */
+}
+
+footer nav ul li a,
+aside nav ul li a {
+  color: #f8f9fa; /* White links in dark sections */
+}
+
+footer nav ul li a:hover,
+aside nav ul li a:hover {
+  background-color: #495057; /* Darker hover effect */
+}
+
+/* Optional breadcrumb styling */
+nav[aria-label="Breadcrumbs"] ul {
+  display: flex; /* Breadcrumbs are typically inline */
+  gap: 5px; /* Small space between items */
+}
+
+nav[aria-label="Breadcrumbs"] ul li a {
+  font-size: 14px; /* Smaller font size for breadcrumbs */
+  color: #6c757d; /* Grey color */
+}
+
+nav[aria-label="Breadcrumbs"] ul li a:hover {
+  color: #007bff; /* Blue on hover */
+}
+
+/* General layout tweaks for main and sidebar sections */
+main nav,
+aside nav {
+  margin-bottom: 20px;
+}
+
+header,
+footer,
+aside {
+  margin-bottom: 30px; /* Add space for readability */
+}

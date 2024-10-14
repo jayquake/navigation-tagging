@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Navigaton Tagging</h1>
+    <h2>Success</h2>
+    <h3>Primary Navigation</h3>
+    <div id="header-wrapper-success-1">
+      <header>
+        <nav id="success-rule-1" aria-label="Primary">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <br />
+
+    <h3>Product Categories Navigation</h3>
+    <div id="main-wrapper-success-2">
+      <main>
+        <nav id="success-rule-2" aria-label="Product categories">
+          <ul>
+            <li><a href="#electronics">Electronics</a></li>
+            <li><a href="#clothing">Clothing</a></li>
+            <li><a href="#home-garden">Home & Garden</a></li>
+          </ul>
+        </nav>
+      </main>
+    </div>
+
+    <br />
+
+    <h3>Sidebar Navigation</h3>
+    <div id="sidebar-wrapper-success-3">
+      <aside>
+        <nav id="success-rule-3" aria-label="Sidebar links">
+          <ul>
+            <li><a href="#latest-news">Latest News</a></li>
+            <li><a href="#trending-topics">Trending Topics</a></li>
+            <li><a href="#subscribe">Subscribe</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+
+    <br />
+
+    <h3>Footer Links</h3>
+    <div id="footer-wrapper-success-4">
+      <footer>
+        <nav id="success-rule-4" aria-label="Footer links">
+          <ul>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms-of-service">Terms of Service</a></li>
+            <li><a href="#contact-support">Contact Support</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+
+    <br />
+
+    <h3>Global Navigation</h3>
+    <div id="global-nav-wrapper-success-5">
+      <header>
+        <nav id="success-rule-5" aria-label="Global">
+          <ul>
+            <li><a href="#english">English</a></li>
+            <li><a href="#francais">Français</a></li>
+            <li><a href="#espanol">Español</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <br />
+
+    <h3>Breadcrumb Navigation</h3>
+    <div id="breadcrumbs-wrapper-success-6">
+      <section>
+        <nav id="success-rule-6" aria-label="Breadcrumbs">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#electronics">Electronics</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+
+    <hr />
+    <h2>Failures</h2>
+    <h3>Primary Navigation (Failure)</h3>
+    <div id="header-wrapper-failure-1">
+      <header>
+        <div id="failure-rule-1">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+    </div>
+
+    <br />
+
+    <h3>Product Categories Navigation (Failure)</h3>
+    <div id="main-wrapper-failure-2">
+      <main>
+        <div id="failure-rule-2">
+          <ul>
+            <li><a href="#electronics">Electronics</a></li>
+            <li><a href="#clothing">Clothing</a></li>
+            <li><a href="#home-garden">Home & Garden</a></li>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <br />
+
+    <h3>Sidebar Navigation (Failure)</h3>
+    <div id="sidebar-wrapper-failure-3">
+      <aside>
+        <nav id="failure-rule-3">
+          <ul>
+            <li><a href="#latest-news">Latest News</a></li>
+            <li><a href="#trending-topics">Trending Topics</a></li>
+            <li><a href="#subscribe">Subscribe</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+
+    <br />
+
+    <h3>Footer Links (Failure)</h3>
+    <div id="footer-wrapper-failure-4">
+      <footer>
+        <div id="failure-rule-4" role="navigation">
+          <ul>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms-of-service">Terms of Service</a></li>
+            <li><a href="#contact-support">Contact Support</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <br />
+
+    <h3>Global Navigation (Failure)</h3>
+    <div id="global-nav-wrapper-failure-5">
+      <header>
+        <nav id="failure-rule-5" aria-label="Navigation">
+          <ul>
+            <li><a href="#english">English</a></li>
+            <li><a href="#francais">Français</a></li>
+            <li><a href="#espanol">Español</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <br />
+
+    <h3>Breadcrumb Navigation (Failure)</h3>
+    <div id="breadcrumbs-wrapper-failure-6">
+      <section>
+        <div id="failure-rule-6">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#electronics">Electronics</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <hr />
+    <br />
+    <h2>Sentry.io False Positive Navigation</h2>
+    <footer class="css-lzy2z8 e2pi3yq2">
+      <div class="css-1hi36og eiuiyjv0">
+        <svg
+          class="e2pi3yq3 css-119mp5z e1m8cnab0"
+          color="#f2b712"
+          width="100%"
+          height="8"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="line-2627"
+              x="0"
+              y="0"
+              width="15"
+              height="8"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M15 5.9c-3.8 0-3.8-4.4-7.5-4.4S3.7 5.9 0 5.9"
+                fill="none"
+                stroke="currentColor"
+                stroke-miterlimit="10"
+                stroke-width="3"
+              ></path>
+            </pattern>
+          </defs>
+          <rect
+            x="0"
+            y="0"
+            width="100%"
+            height="8"
+            fill="url(#line-2627)"
+          ></rect>
+        </svg>
+      </div>
+      <div class="css-gvn4si e2pi3yq1">
+        <div class="css-1ievg60 eiuiyjv0">
+          <div class="css-10docet edbg3fs5">
+            <nav aria-label="information" class="css-vqzvpd edbg3fs4">
+              <div>
+                <h3 class="css-1qc3hd1 e13yldr40">Product</h3>
+                <ul class="css-1g0bth4 e13yldr41">
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/features/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Features</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/pricing/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Pricing</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://docs.sentry.io/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Documentation</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/integrations/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Integrations</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://status.sentry.io/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Status</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="css-1qc3hd1 e13yldr40">Company</h3>
+                <ul class="css-1g0bth4 e13yldr41">
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://blog.sentry.io/"
+                      ><span class="silent css-17qgsod e1of9yu11">Blog</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/about/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >About Us</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/careers/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Careers</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/customers/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Customers</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/community/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Community</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://open.sentry.io/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Open Source</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/changelog/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Changelog</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/about/media-resources/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Media Resources</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://sentry.engineering"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Engineering Blog</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="css-1qc3hd1 e13yldr40">Information</h3>
+                <ul class="css-1g0bth4 e13yldr41">
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/trust/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Trust Center</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/security/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Security &amp; Compliance</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <button
+                      to=""
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                    >
+                      <span class="silent css-17qgsod e1of9yu11">Privacy</span>
+                    </button>
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/trust/privacy/california/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >California Privacy Notice</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      aria-current="page"
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/terms/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Terms</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/legal/transparency-report/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Transparency Report</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://sentry.zendesk.com/hc/en-us/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Support</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/resources/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Resources</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/answers/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Answers</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <nav aria-label="platforms" class="css-1uctyxo edbg3fs3">
+              <div>
+                <h3 class="css-1qc3hd1 e13yldr40">Platforms</h3>
+                <ul class="css-1g0bth4 e13yldr41">
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/javascript/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >JavaScript</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/dot-net/"
+                      ><span class="silent css-17qgsod e1of9yu11">.NET</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/python/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Python</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/android/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Android</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/php/"
+                      ><span class="silent css-17qgsod e1of9yu11">PHP</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/django/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Django</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/java/"
+                      ><span class="silent css-17qgsod e1of9yu11">Java</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/flask/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Flask</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/ruby/"
+                      ><span class="silent css-17qgsod e1of9yu11">Ruby</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/laravel/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Laravel</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/ios/"
+                      ><span class="silent css-17qgsod e1of9yu11">iOS</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/rails/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >Rails</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/node/"
+                      ><span class="silent css-17qgsod e1of9yu11">Node</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/react/"
+                      ><span class="silent css-17qgsod e1of9yu11"
+                        >React</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new silent compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="/for/go/"
+                      ><span class="silent css-17qgsod e1of9yu11">Go</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn-new secondary-light compensate-left e1of9yu15 css-1csoxiy e1figufi0"
+                      href="https://sentry.io/platforms/"
+                      ><span class="secondary-light css-17qgsod e1of9yu11"
+                        >See all</span
+                      ><svg
+                        aria-hidden="true"
+                        class="css-t9vw0z e1of9yu12"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-width="2"
+                          d="M9 4l8 8-8 8"
+                          fill="none"
+                          fill-rule="evenodd"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <svg
+            class="css-18vtvuf e1m8cnab0"
+            color=""
+            width="100%"
+            height="8"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="line-2628"
+                x="0"
+                y="0"
+                width="15"
+                height="8"
+                patternUnits="userSpaceOnUse"
+              >
+                <path
+                  d="M15 5.9c-3.8 0-3.8-4.4-7.5-4.4S3.7 5.9 0 5.9"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-miterlimit="10"
+                  stroke-width="3"
+                ></path>
+              </pattern>
+            </defs>
+            <rect
+              x="0"
+              y="0"
+              width="100%"
+              height="8"
+              fill="url(#line-2628)"
+            ></rect>
+          </svg>
+          <div class="css-12wst1z edbg3fs2">
+            <ul class="css-12w4jvo e16fm13v1">
+              <a
+                target="_blank"
+                aria-label="Twitter"
+                class="btn-new silent compensate-left e16fm13v0 e1of9yu15 css-6x6bk e1figufi0"
+                href="https://twitter.com/getsentry/"
+                ><svg
+                  aria-hidden="true"
+                  class="css-35hz2d e1of9yu14"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                >
+                  <path
+                    d="M16,3a6.56,6.56,0,0,1-1.89.52,3.29,3.29,0,0,0,1.44-1.82,6.57,6.57,0,0,1-2.08.8,3.3,3.3,0,0,0-5.59,3A9.32,9.32,0,0,1,1.11,2.1a3.32,3.32,0,0,0,1,4.38A3.27,3.27,0,0,1,.64,6.07,3.32,3.32,0,0,0,3.28,9.33a3.32,3.32,0,0,1-1.48.06,3.29,3.29,0,0,0,3.07,2.28A6.66,6.66,0,0,1,0,13a9.48,9.48,0,0,0,10.71-.39,9.61,9.61,0,0,0,3.65-7.9A6.67,6.67,0,0,0,16,3C15.41,3.3,15.56,3.7,16,3Z"
+                    fill="currentColor"
+                  ></path></svg
+                ><span class="silent css-17qgsod e1of9yu11">Twitter</span></a
+              ><a
+                target="_blank"
+                aria-label="GitHub"
+                class="btn-new silent compensate-left e16fm13v0 e1of9yu15 css-6x6bk e1figufi0"
+                href="https://github.com/getsentry/"
+                ><svg
+                  aria-hidden="true"
+                  class="css-35hz2d e1of9yu14"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                >
+                  <path
+                    d="M8,0.2A8,8,0,0,0,5.47,15.79,0.4,0.4,0,0,0,6,15.4c0-.19,0-0.69,0-1.36C3.78,14.53,3.31,13,3.31,13a2.12,2.12,0,0,0-.89-1.17c-0.73-.5.05-0.49,0.05-0.49a1.68,1.68,0,0,1,1.23.82A1.7,1.7,0,0,0,6,12.8a1.71,1.71,0,0,1,.51-1.07c-1.78-.2-3.64-0.89-3.64-4a3.09,3.09,0,0,1,.82-2.15A2.88,2.88,0,0,1,3.8,3.52S4.47,3.3,6,4.34a7.58,7.58,0,0,1,4,0c1.53-1,2.2-.82,2.2-0.82a2.87,2.87,0,0,1,.08,2.12,3.09,3.09,0,0,1,.82,2.15c0,3.07-1.87,3.75-3.65,3.95A1.91,1.91,0,0,1,10,13.21c0,1.07,0,1.93,0,2.19a0.4,0.4,0,0,0,.55.38A8,8,0,0,0,8,.2Z"
+                    fill="currentColor"
+                  ></path></svg
+                ><span class="silent css-17qgsod e1of9yu11">GitHub</span></a
+              ><a
+                target="_blank"
+                aria-label="Dribble"
+                class="btn-new silent compensate-left e16fm13v0 e1of9yu15 css-6x6bk e1figufi0"
+                href="https://dribbble.com/sentry/"
+                ><svg
+                  aria-hidden="true"
+                  class="css-35hz2d e1of9yu14"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                >
+                  <path
+                    d="M8,16a8,8,0,1,1,8-8A8,8,0,0,1,8,16Zm6.75-6.9a10,10,0,0,0-4.26-.29,29.49,29.49,0,0,1,1.33,4.87A6.84,6.84,0,0,0,14.75,9.1ZM10.67,14.3A28.41,28.41,0,0,0,9.21,9.12,9.38,9.38,0,0,0,3.81,13.4,6.86,6.86,0,0,0,10.67,14.3ZM2.92,12.58A10.75,10.75,0,0,1,8.75,8C8.58,7.6,8.39,7.21,8.19,6.83a25.21,25.21,0,0,1-7,1A6.77,6.77,0,0,0,2.92,12.58Zm-1.61-6a25.49,25.49,0,0,0,6.32-.83,43.6,43.6,0,0,0-2.53-4A6.86,6.86,0,0,0,1.31,6.61ZM6.4,1.37a36.47,36.47,0,0,1,2.55,4A7.72,7.72,0,0,0,12.53,2.9,6.79,6.79,0,0,0,6.4,1.37Zm6.89,2.32A9.1,9.1,0,0,1,9.47,6.38c0.16,0.33.44,0.89,0.6,1.34a16,16,0,0,1,4.76.22A6.8,6.8,0,0,0,13.29,3.69Z"
+                    fill="currentColor"
+                  ></path></svg
+                ><span class="silent css-17qgsod e1of9yu11">Dribbble</span></a
+              ><a
+                target="_blank"
+                aria-label="Linkedin"
+                class="btn-new silent compensate-left e16fm13v0 e1of9yu15 css-6x6bk e1figufi0"
+                href="https://linkedin.com/company/getsentry/"
+                ><svg
+                  aria-hidden="true"
+                  class="css-35hz2d e1of9yu14"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                >
+                  <path
+                    d="M14.82 0H1.18A1.17 1.17 0 0 0 0 1.15v13.7A1.17 1.17 0 0 0 1.18 16h13.64A1.17 1.17 0 0 0 16 14.85V1.15A1.17 1.17 0 0 0 14.82 0zM4.75 13.63H2.37V6h2.38zM3.55 5a1.38 1.38 0 1 1 1.38-1.42A1.38 1.38 0 0 1 3.56 5zm10.08 8.68h-2.37V9.92c0-.9 0-2-1.23-2s-1.42 1-1.42 2v3.78H6.24V6H8.5v1a2.5 2.5 0 0 1 2.26-1.23c2.4 0 2.85 1.58 2.85 3.64z"
+                    fill="currentColor"
+                  ></path></svg
+                ><span class="silent css-17qgsod e1of9yu11">Linkedin</span></a
+              ><a
+                target="_blank"
+                aria-label="Discord"
+                class="btn-new silent compensate-left e16fm13v0 e1of9yu15 css-6x6bk e1figufi0"
+                href="https://discord.gg/sentry"
+                ><svg
+                  aria-hidden="true"
+                  class="css-35hz2d e1of9yu14"
+                  viewBox="0 0 127.14 96.36"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #fff;
+                      }
+                    </style>
+                  </defs>
+                  <g id="图层_2" data-name="图层 2">
+                    <g id="Discord_Logos" data-name="Discord Logos">
+                      <g
+                        id="Discord_Logo_-_Large_-_Blurple"
+                        data-name="Discord Logo - Large - Blurple"
+                      >
+                        <path
+                          class="cls-1"
+                          d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"
+                          style="fill: rgb(106, 95, 193)"
+                        ></path>
+                      </g>
+                    </g>
+                  </g></svg
+                ><span class="silent css-17qgsod e1of9yu11">Discord</span></a
+              >
+            </ul>
+            <div class="css-hl9o8 edbg3fs1">
+              ©
+              <!-- -->2024<!-- -->
+              • Sentry is a registered Trademark<br class="css-tsx7vn" />
+              <!-- -->of Functional Software, Inc.
+            </div>
+            <a href="/" aria-label="home" class="css-1u50cl4 edbg3fs0"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 200 44"
+                aria-hidden="true"
+                class="css-4zleql e6sdxp70"
+              >
+                <path
+                  fill="currentColor"
+                  d="M124.32,28.28,109.56,9.22h-3.68V34.77h3.73V15.19l15.18,19.58h3.26V9.22h-3.73ZM87.15,23.54h13.23V20.22H87.14V12.53h14.93V9.21H83.34V34.77h18.92V31.45H87.14ZM71.59,20.3h0C66.44,19.06,65,18.08,65,15.7c0-2.14,1.89-3.59,4.71-3.59a12.06,12.06,0,0,1,7.07,2.55l2-2.83a14.1,14.1,0,0,0-9-3c-5.06,0-8.59,3-8.59,7.27,0,4.6,3,6.19,8.46,7.52C74.51,24.74,76,25.78,76,28.11s-2,3.77-5.09,3.77a12.34,12.34,0,0,1-8.3-3.26l-2.25,2.69a15.94,15.94,0,0,0,10.42,3.85c5.48,0,9-2.95,9-7.51C79.75,23.79,77.47,21.72,71.59,20.3ZM195.7,9.22l-7.69,12-7.64-12h-4.46L186,24.67V34.78h3.84V24.55L200,9.22Zm-64.63,3.46h8.37v22.1h3.84V12.68h8.37V9.22H131.08ZM169.41,24.8c3.86-1.07,6-3.77,6-7.63,0-4.91-3.59-8-9.38-8H154.67V34.76h3.8V25.58h6.45l6.48,9.2h4.44l-7-9.82Zm-10.95-2.5V12.6h7.17c3.74,0,5.88,1.77,5.88,4.84s-2.29,4.86-5.84,4.86Z M29,2.26a4.67,4.67,0,0,0-8,0L14.42,13.53A32.21,32.21,0,0,1,32.17,40.19H27.55A27.68,27.68,0,0,0,12.09,17.47L6,28a15.92,15.92,0,0,1,9.23,12.17H4.62A.76.76,0,0,1,4,39.06l2.94-5a10.74,10.74,0,0,0-3.36-1.9l-2.91,5a4.54,4.54,0,0,0,1.69,6.24A4.66,4.66,0,0,0,4.62,44H19.15a19.4,19.4,0,0,0-8-17.31l2.31-4A23.87,23.87,0,0,1,23.76,44H36.07a35.88,35.88,0,0,0-16.41-31.8l4.67-8a.77.77,0,0,1,1.05-.27c.53.29,20.29,34.77,20.66,35.17a.76.76,0,0,1-.68,1.13H40.6q.09,1.91,0,3.81h4.78A4.59,4.59,0,0,0,50,39.43a4.49,4.49,0,0,0-.62-2.28Z"
+                ></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
