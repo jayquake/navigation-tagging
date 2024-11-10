@@ -94,3 +94,68 @@ footer,
 aside {
   margin-bottom: 30px; /* Add space for readability */
 }
+/* Basic Toggle Styling */
+.react-toggle {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  position: relative;
+}
+
+.react-toggle-track {
+  background-color: #ccc;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.react-toggle-track-check,
+.react-toggle-track-x {
+  font-size: 0.75em;
+  padding: 0 5px;
+}
+
+.react-toggle-track-check {
+  color: green;
+  visibility: visible;
+}
+
+.react-toggle-track-x {
+  color: red;
+  visibility: hidden;
+}
+
+.react-toggle--checked .react-toggle-track-check {
+  visibility: hidden;
+}
+
+.react-toggle--checked .react-toggle-track-x {
+  visibility: visible;
+}
+
+.react-toggle-thumb {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  transition: all 0.3s;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+  left: 25px;
+}
+
+/* Accessible Toggle Label Styling */
+.toggle-label {
+  margin-right: 10px;
+}
